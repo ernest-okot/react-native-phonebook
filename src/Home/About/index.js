@@ -1,8 +1,9 @@
 import React from 'react';
 import {StackNavigator} from "react-navigation";
-import {palette} from "style";
 import HeaderRight from "components/HeaderRight";
-import ScreenContent from "components/ScreenContent";
+import InfoScreenContent from "components/InfoScreenContent";
+import {palette} from "style";
+import {Text, View} from "react-native";
 
 class About extends React.Component {
 
@@ -20,7 +21,11 @@ class About extends React.Component {
   };
 
   render() {
-    return <ScreenContent />
+    return <InfoScreenContent>
+      <View style={{margin: 10}}>
+        <Text>Manage company contacts</Text>
+      </View>
+    </InfoScreenContent>
   }
 }
 

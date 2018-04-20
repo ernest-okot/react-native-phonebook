@@ -1,14 +1,14 @@
 import React from 'react';
 import {ScrollView} from "react-native";
 import {DrawerItems, SafeAreaView} from "react-navigation";
-import Icon from 'react-native-vector-icons/Ionicons';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 import {palette} from "style";
 import {Row} from "style/Flex";
 import {routes} from "src/Home";
 import HeaderRight from "../HeaderRight";
 
 const DrawerIcon = ({route: {key}, focused = false, tintColor = palette.textLight}) => {
-  return <Icon name={routes[key].icon} size={30} color={tintColor}/>;
+  return <Icon name={routes[key].icon} size={24} color={tintColor}/>;
 };
 
 const DrawerContent = props => {

@@ -1,8 +1,11 @@
 import React from 'react';
 import {StackNavigator} from "react-navigation";
 import HeaderRight from "components/HeaderRight";
+import InfoScreenContent from "components/InfoScreenContent";
 import {palette} from "style";
-import ScreenContent from "components/ScreenContent";
+import FeedbackForm from "../../../components/FeedbackForm";
+import {KeyboardAvoidingView} from "react-native";
+import {Grow} from "../../../style/Flex";
 
 class Feedback extends React.Component {
 
@@ -20,8 +23,12 @@ class Feedback extends React.Component {
   };
 
   render() {
-    return <ScreenContent />
+    return (
+      <InfoScreenContent>
+        <FeedbackForm/>
+      </InfoScreenContent>
+    );
   }
 }
 
-export default  StackNavigator({Feedback: {screen: Feedback}});
+export default StackNavigator({Feedback: {screen: Feedback}});

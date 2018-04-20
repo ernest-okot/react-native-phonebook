@@ -1,8 +1,9 @@
 import React from 'react';
 import {StackNavigator} from "react-navigation";
 import HeaderRight from "components/HeaderRight";
+import InfoScreenContent from "components/InfoScreenContent";
+import QuestionAnswerAccordion from "components/QuestionAnswerAccordion";
 import {palette} from "style";
-import ScreenContent from "components/ScreenContent";
 
 class FAQs extends React.Component {
 
@@ -20,7 +21,9 @@ class FAQs extends React.Component {
   };
 
   render() {
-    return <ScreenContent />
+    return <InfoScreenContent>
+      <QuestionAnswerAccordion/>
+    </InfoScreenContent>
   }
 }
 

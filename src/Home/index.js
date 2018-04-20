@@ -10,24 +10,24 @@ import FAQs from "./FAQs";
 export const routes = {
   'Contacts': {
     screen: Contacts,
-    icon: 'ios-contacts-outline'
+    icon: 'contacts'
   },
   // 'UNRA Website': { screen: },
   'Share Feedback': {
     screen: Feedback,
-    icon: 'ios-chatbubbles-outline'
-  },
-  'FAQs': {
-    screen: FAQs,
-    icon: 'ios-help-circle-outline'
+    icon: 'question-answer'
   },
   'Whistler Blower': {
     screen: WhistlerBlower,
-    icon: 'ios-megaphone-outline',
+    icon: 'record-voice-over',
+  },
+  'FAQs': {
+    screen: FAQs,
+    icon: 'help-outline'
   },
   'About': {
     screen: About,
-    icon: 'ios-information-circle-outline'
+    icon: 'info-outline'
   },
 
 };

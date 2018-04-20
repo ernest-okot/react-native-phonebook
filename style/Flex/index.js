@@ -33,7 +33,7 @@ type FlexContainer = {
 export const Container = (props: FlexContainer) => {
   return (
     <View
-      style={{
+      style={[{
         display: 'flex',
         flexDirection: props.direction,
         flexWrap: props.wrap,
@@ -41,12 +41,10 @@ export const Container = (props: FlexContainer) => {
         alignItems: props.alignItems,
         alignContent: props.alignContent,
         flexBasis: props.basis,
-        flexGrow: props.grow,
+        flex: props.grow ? (+props.grow > 1 ? props.grow : 1) : 0,
         flexShrink: props.shrink,
         alignSelf: props.align,
-
-        ...(props.style || {}),
-      }}>
+      }, props.style || {}]}>
       {props.children}
     </View>
   )

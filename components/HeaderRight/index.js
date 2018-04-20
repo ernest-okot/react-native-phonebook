@@ -1,5 +1,5 @@
 import React from 'react'
-import Icon from "react-native-vector-icons/Ionicons";
+import Icon from "react-native-vector-icons/MaterialIcons";
 import {palette} from "style";
 import {Column} from "style/Flex";
 import {withNavigation} from 'react-navigation';
@@ -13,7 +13,7 @@ const HeaderRight = props => (
       justifyRight={'center'}
       alignItems={'center'}>
       <Icon
-        name={'ios-menu'}
+        name={'menu'}
         size={30}
         color={palette.textLight}
       />
