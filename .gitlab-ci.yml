@@ -1,0 +1,22 @@
+image: node:latest
+
+stages:
+  - build
+
+before_script:
+  - npm install --global exp exptool
+  - yarn
+
+build:
+  stage: build
+  script:
+    - exp login -u "$EXPO_USER" -p "$EXPO_PASSWORD" --non-interactive
+    - exptool check:status
+    - exp build:android --release-channel production --no-wait --non-interactive
+    - exptool wait:build --interval 120 --timeout 1200
+    - exptool download:artifact
+  artifacts:
+      paths:
+      - app.apk
+  only:
+    - master

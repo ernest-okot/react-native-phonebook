@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from 'react-native-vector-icons/MaterialIcons';
+import Icon from '@expo/vector-icons/MaterialIcons';
 import {Column, Row} from "style/Flex";
 import {palette} from "style";
 import {Text, TextInput, TouchableOpacity} from "react-native";

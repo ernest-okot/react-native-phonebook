@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from 'react-native-vector-icons/MaterialIcons';
+import Icon from '@expo/vector-icons/MaterialIcons';
 import ScreenContent from "components/ScreenContent";
 import {Column, Row} from "style/Flex";
 import {ScrollView, Text, View, StyleSheet} from "react-native";

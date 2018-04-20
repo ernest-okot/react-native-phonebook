@@ -44,7 +44,7 @@ const style = StyleSheet.create({
     borderColor: '#ddd',
     borderWidth: 1,
     margin: 10,
-    borderRadius: 10,
+    borderRadius: 5,
   },
   headerActive: {
     padding: 15,
@@ -53,18 +53,19 @@ const style = StyleSheet.create({
     borderWidth: 1,
     margin: 10,
     marginBottom: 0,
-    borderTopLeftRadius: 10,
-    borderTopRightRadius: 10,
+    borderTopLeftRadius: 5,
+    borderTopRightRadius: 5,
   },
   body: {
     padding: 15,
     backgroundColor: '#fff',
     borderColor: '#ddd',
     borderWidth: 1,
+    borderTopWidth: 0,
     margin: 10,
     marginTop: 0,
-    borderBottomLeftRadius: 10,
-    borderBottomRightRadius: 10,
+    borderBottomLeftRadius: 5,
+    borderBottomRightRadius: 5,
   },
 });
 

@@ -2,7 +2,7 @@
 import React from 'react';
 import {TextInput} from 'react-native';
 import {Row, Grow, Column} from "style/Flex";
-import Icon from 'react-native-vector-icons/MaterialIcons';
+import Icon from '@expo/vector-icons/MaterialIcons';
 import {palette} from "style";
 
 type Props = {

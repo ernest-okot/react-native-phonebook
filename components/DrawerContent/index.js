@@ -1,7 +1,7 @@
 import React from 'react';
 import {ScrollView} from "react-native";
 import {DrawerItems, SafeAreaView} from "react-navigation";
-import Icon from 'react-native-vector-icons/MaterialIcons';
+import Icon from '@expo/vector-icons/MaterialIcons';
 import {palette} from "style";
 import {Row} from "style/Flex";
 import {routes} from "src/Home";

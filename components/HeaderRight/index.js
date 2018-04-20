@@ -1,5 +1,5 @@
 import React from 'react'
-import Icon from "react-native-vector-icons/MaterialIcons";
+import Icon from "@expo/vector-icons/MaterialIcons";
 import {palette} from "style";
 import {Column} from "style/Flex";
 import {withNavigation} from 'react-navigation';

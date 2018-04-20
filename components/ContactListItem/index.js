@@ -1,7 +1,7 @@
 // @flow
 import React from 'react';
 import {Text, TouchableOpacity, View} from "react-native";
-import Icon from 'react-native-vector-icons/MaterialIcons';
+import Icon from '@expo/vector-icons/MaterialIcons';
 import {Row, Column, Grow} from 'style/Flex';
 import {palette} from "style";
 import {withNavigation} from "react-navigation";
