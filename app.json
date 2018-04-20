@@ -1,5 +1,15 @@
 {
   "expo": {
+    "name": "Phonebook",
+    "icon": "./icon.png",
+    "version": "1.0.0",
+    "slug": "phonebook",
+    "ios": {
+      "bundleIdentifier": "ug.houseofmoses.phonebook"
+    },
+    "android": {
+      "package": "ug.houseofmoses.phonebook"
+    },
     "sdkVersion": "26.0.0"
   }
 }
