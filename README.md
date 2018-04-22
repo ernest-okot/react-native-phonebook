@@ -1,6 +1,6 @@
 # Phonebook
 
-A simple phonebook app written in react native
+A simple phonebook app written in react native with expo
 
 ## Usage
 
