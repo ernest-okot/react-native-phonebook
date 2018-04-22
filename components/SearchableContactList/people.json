@@ -1,54 +1,5 @@
 [
   {
-    "id": 1,
-    "firstname": "Gideon",
-    "lastname": "Poet",
-    "title": "Process Graphic Specialist",
-    "department": "EAS-OED"
-  },
-  {
-    "id": 2,
-    "firstname": "Melanie",
-    "lastname": "Niwamanya",
-    "title": "Land Valuer",
-    "department": "Land Acquisition-DNP"
-  },
-  {
-    "id": 3,
-    "firstname": "Francis",
-    "lastname": "Hatega",
-    "title": "Process Graphic Specialist",
-    "department": "EAS-OED"
-  },
-  {
-    "id": 4,
-    "firstname": "Ritah",
-    "lastname": "Meinah",
-    "title": "Client Relations Officer",
-    "department": "PCA-OED"
-  },
-  {
-    "id": 5,
-    "firstname": "Phionah",
-    "lastname": "Nera",
-    "title": "Process Graphic Specialist",
-    "department": "EAS-OED"
-  },
-  {
-    "id": 6,
-    "firstname": "Issah",
-    "lastname": "Kiganda",
-    "title": "Head Enterprise Architecture & Standards",
-    "department": "EAS-OED"
-  },
-  {
-    "id": 7,
-    "firstname": "Barbara",
-    "lastname": "Sanyu",
-    "title": "Process Graphic Specialist",
-    "department": "EAS-OED"
-  },
-  {
     "id": 8,
     "firstname": "Wallache",
     "lastname": "Fidele",

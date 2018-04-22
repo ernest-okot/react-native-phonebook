@@ -21,7 +21,7 @@ class Splash extends React.Component {
       style={style.container}
       alignItems={'center'}
       justifyContent={'center'}
-      grow={1}>
+      grow>
       <Row>
         <View style={style.logo} />
         <Column>
